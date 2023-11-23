@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-logo{
+    color: white;
+    font-size: 50px;
+}
+.header-list{
+    display: flex;
+    column-gap: 30px;
+}
+.header-link{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-fantasy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+.header-cloud{
+    position: absolute;
+    top: 15%;
+}
+.cloud-one{
+    left: 10%;
+}
+.cloud-two{
+    left: 40%;
+}
+.cloud-three{
+    right: 10%;
+}
+.header-boat{
+    position: absolute;
+    top: 60%;
+}
+body{
+    height: 1500px;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.header-title{
+    font-size: 100px;
+    font-weight: 700;
+    text-shadow:  0 0 5px black;
+    color: white;
+}
+.parallax{
+    height: 500px;
+}
+.parallax-title{
+    padding: 20px 0 ;
+    background-color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.parallax-box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.parallax-baner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.parallax-ball{
+    position: absolute;
+
+}
+.leyer-1{
+    top: 12%;
+    left: 15%;
+}
+.leyer-2{
+    right: 10%;
+    top: 10%;
+}
